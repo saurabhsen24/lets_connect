@@ -1,0 +1,22 @@
+a {
+  color: black !important;
+}
+
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+  margin-left: 1rem;
+}
+
+.home__search {
+  color: black !important;
+  cursor: pointer;
+}
+
+.home__modal {
+  color: black !important;
+  background-color: white;
+}
+
+.home__collectionItem {
+  width: 100%;
+}

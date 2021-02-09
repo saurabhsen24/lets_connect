@@ -1,0 +1,23 @@
+.editprofile {
+  margin: 3rem auto;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.editprofile__card {
+  padding: 2rem;
+}
+
+.editprofile__title {
+  font-size: 3.5rem !important;
+  font-weight: 400 !important;
+  font-family: "Grand Hotel", cursive;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+textarea.materialize-textarea:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+}

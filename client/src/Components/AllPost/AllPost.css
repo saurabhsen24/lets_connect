@@ -1,0 +1,10 @@
+.allpost {
+  margin: 3rem;
+}
+
+.all__card {
+  max-width: 400px;
+  margin: 10rem auto;
+  padding: 20px;
+  text-align: center;
+}

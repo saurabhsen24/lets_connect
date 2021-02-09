@@ -1,0 +1,20 @@
+.createPost {
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+.createPost__card {
+  padding: 2rem;
+}
+
+.createPost__title {
+  font-size: 3.5rem !important;
+  font-weight: 400 !important;
+  font-family: "Grand Hotel", cursive;
+}
+
+input[type="text"]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+}

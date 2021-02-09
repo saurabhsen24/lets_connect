@@ -1,0 +1,60 @@
+.profile {
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+.profile__card {
+  max-width: 400px;
+  margin: 10rem auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile__userdata {
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+.profile__number {
+  font-weight: 600;
+  color: #262626;
+}
+
+.profile__username {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.profile__image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.profile__bio {
+  padding-left: 13px;
+}
+
+.profile__bio > h6 {
+  font-weight: 600;
+}
+
+.profile__bio > p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.profile__userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.profile__buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}

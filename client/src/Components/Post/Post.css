@@ -1,0 +1,109 @@
+.post {
+  max-width: 500px;
+  margin: 30px auto;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post__deleteIcon {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.post__body {
+  padding: 1rem 1rem;
+}
+
+.post__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.post__userheader {
+  display: flex;
+}
+
+.post__userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post__userName {
+  margin-left: 10px !important;
+}
+
+.post__card--content {
+  padding: 1px 1rem !important;
+}
+
+.post__content {
+  margin-top: 10px;
+}
+
+.liked--red {
+  color: red;
+}
+
+.post__like {
+  cursor: pointer;
+}
+
+.post__block {
+  display: flex;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+.post__user {
+  font-weight: 600;
+}
+
+.post__comment {
+  padding-left: 5px;
+  flex: 1;
+}
+
+.post__showComments {
+  cursor: pointer;
+}
+
+.post__commentEdit {
+  float: right;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.post__collection {
+  border: 0;
+  margin: 0;
+}
+
+.post__modal {
+  border-radius: 20px;
+  background-color: white;
+}
+
+.post__item:hover {
+  color: #ed4956;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.post__footer {
+  border: 0 !important;
+  background-color: white !important;
+  padding: 0px 32px !important;
+}
+
+.post__send {
+  margin-right: 1rem;
+}
+
+.post__hide {
+  display: none;
+}
