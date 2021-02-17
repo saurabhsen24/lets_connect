@@ -92,7 +92,7 @@ function Header() {
                         <ul className="collection">
                             {
                                 users && users.map((item,index) => (
-                                    <Link to={ item._id === user._id ? '/profile' : `/profile/${item._id}`} key={index} onClick={handleModal}>
+                                    <Link to={ (item._id === user?._id) ? '/profile' : `/profile/${item._id}`} key={index} onClick={handleModal}>
                                         <li className="collection-item home__collectionItem">{item.email}</li>
                                     </Link>
                                 ))
