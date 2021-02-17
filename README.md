@@ -1,7 +1,7 @@
 # LetsConnect
 
 This is a social media app created with the help of MERN stack. Most of the feature of this app is inspired from Instagram. Creating user profile, searching for other users,
-follow or unfollow them, owner of the post can delete the comment or delete the post.
+follow or unfollow them, owner of the post can delete the comment or delete the post while other users can like or dislike the post.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ follow or unfollow them, owner of the post can delete the comment or delete the 
 - Newsfeed
 - Global Newsfeed
 - Profile
-- Like / Unlike Post
+- Like / Dislike Post
 - Comment Post
 - Delete Comment
 - Delete Post
